@@ -1,0 +1,235 @@
+.welCardHight{
+ 
+  height: 430px !important;
+
+ 
+}
+.sigcard-background {
+  height:450px !important; 
+
+  /* background-image: url("https://media3.giphy.com/media/WPnysWAaxHlRL19Li6/giphy.gif"); */
+  background-image:  url("https://st2.depositphotos.com/1318696/5737/v/450/depositphotos_57379035-stock-illustration-fashion-girl-woman-with-shopping.jpg");
+  background-repeat: no-repeat;
+
+
+  
+  
+ 
+}
+/* .sigcard-background::content{
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;;
+  background-color: rgba(218, 79, 164, 0.25);
+} */
+.sigreg{
+  font-style: oblique;
+  color: deeppink;
+}
+@media   screen and  (max-width:441px)  {
+  .sigreg {
+    margin-top: 50px;
+  }
+  .sigcard-background {
+    height: 540px !important;
+  }
+  .btsig{
+    display: flex;
+  }
+ .siginp{
+  width: 160px;
+ }
+ .siglog{
+  height: 40px;
+  margin-top: 6px;
+ }
+ 
+}
+@media screen and (max-width:366px) {
+  .loginp{
+    width:140px ;
+  }
+  
+ 
+}
+@media screen and (min-width:758px)  {
+  .logsec{
+      margin-left: 80px;
+       
+  }
+  
+}
+
+@media screen and (min-width:1024px)  {
+  .logsec{
+      margin-left: 250px ;
+       
+  }
+
+}
+@media screen  and (min-width:1198px){
+  .logsec{
+    margin-left: 300px ;
+     
+}
+  
+}
+.signinform{
+  margin-left: auto;
+  margin-right: auto;
+}
+.logfrm{
+  font-style: oblique;
+
+}
+.logbg{
+  /* background-image: url("https://cdn.shopify.com/s/files/1/0070/7032/files/Clothing-Photography.jpg?v=1620418960&width=1024"); */
+  background-image: url("https://wallpapercave.com/wp/wp1877585.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: min-content;
+  /* width: 80%;
+  height: 80vh; */
+}
+.logbt{
+  height:40px ;
+  margin-top: 7px;
+  background-color: black;
+  color: deeppink;
+  border: none;
+  border-radius: 10px;
+}
+@media screen and (max-width:427px) {
+  .logbt{
+    margin-top: 13px;
+  }
+  
+}
+.deswork-background{
+
+ background-image: url("https://img.freepik.com/free-vector/pop-art-girl-holding-shopping-bags_88138-217.jpg");
+ 
+ 
+  background-repeat: no-repeat;
+background-size: cover;
+
+
+
+
+
+
+
+}
+.signup-bg{
+  background-image: url("https://th.bing.com/th/id/R.8be4ac6a9e5d863cb2f1f199f841e05f?rik=cVY73VynJl28%2fA&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fKS33QQw.jpg&ehk=KoW167EBlnHplNNQaTFg9kMJ8spUpiEnLXiMwfUcUx0%3d&risl=&pid=ImgRaw&r=0");
+  background-repeat: no-repeat;
+  
+ 
+}
+.desviewpage{
+  width: 500px;
+  border: 2px solid black;
+  box-shadow: 0px 0px 15px 5px black;
+  height: 100px;
+}
+@media screen  and (max-width:772px){
+
+  .desviewpage{
+     width: 400px;
+    
+  }
+}
+.desviewpage:hover{
+  /* height: 950px; */
+  box-shadow: 0px 0px 10px 5px deeppink;
+  transition: all;
+  transform: scale(0.9);
+
+
+}
+.desnav{
+  text-align: end;
+  color: deeppink;
+  margin-top: 8px;
+
+
+}
+/* .myprofile{
+  padding-left: 500px;
+} */
+
+.desnav:hover{
+ 
+  text-align: end;
+  color: deeppink;
+  margin-top: 10px;
+ 
+
+}
+.welcome{
+  color: deeppink;
+}
+.desnavpro{
+  width: 60;
+  margin-left: 50px;
+}
+.butn{
+  background-color:rgb(5, 5, 5);
+  color: deeppink;
+font-family: cursive;
+font-weight: 200;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+ 
+}
+.productImage{
+    height:330px;
+    
+}
+.btn2 {
+   background-color: black;
+   color: deeppink;
+   border: none;
+   border-radius: 10px;
+  height: 40px;
+
+
+}
+.sinbtn{
+  background-color: black;
+  color: deeppink;
+  border: none;
+  border-radius: 10px;
+ height: 40px;
+
+
+
+}
+.btn3{
+  margin-top: 20px;
+}
+.websitename{
+ font-family:cursive;
+}
+.despro{
+  color: deeppink;
+  font-family: cursive;
+}
+@media screen  and (min-width:300px){
+  .butn{
+      margin-left: 10px;
+  }
+}
+.desprofileview{
+  margin-top: 50% !important;
+  border: 2px solid black;
+  box-shadow: 0px 0px 15px 5px black;
+}
+.desImage{
+  height:280px;
+  
+}
